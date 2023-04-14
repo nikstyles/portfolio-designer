@@ -9,7 +9,7 @@ import './i18n';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/portfolio/">
+    <BrowserRouter basename="/portfolio-designer/">
       <ThemeProvider theme={dark}>
         <App />
       </ThemeProvider>
