@@ -1,14 +1,14 @@
 {
   "MenuList": {
     "home": "Home",
-    "projects": "Projects",
+    "projects": "Portfolio",
     "about": "About",
     "contacts": "Contacts"
   },
   "Banner": {
     "I_m_Nikita": "I'm Nikita",
-    "front_end": "graphic",
-    "developer": "designer"
+    "front_end": "Graphic",
+    "developer": "Designer"
   },
   "TechSkills": {
     "title": "TechSkills"
