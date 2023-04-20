@@ -23,7 +23,7 @@ const WrapTechSkills = styled.ul`
   gap: 28px;
 
   @media (max-width: 1200px) {
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 35px;
   }
   @media (max-width: 768px) {
@@ -71,12 +71,11 @@ export default function TechSkills() {
     <Wrap>
       <TitleTechSkills>{t('TechSkills.title')}</TitleTechSkills>
       <WrapTechSkills>
-        <ItemTechSkills>HTML</ItemTechSkills>
-        <ItemTechSkills>CSS/SASS</ItemTechSkills>
-        <ItemTechSkills>JavaScript</ItemTechSkills>
-        <ItemTechSkills>React</ItemTechSkills>
-        <ItemTechSkills>Redux</ItemTechSkills>
-        <ItemTechSkills>Git</ItemTechSkills>
+        <ItemTechSkills>Photoshop</ItemTechSkills>
+        <ItemTechSkills>Illustrator</ItemTechSkills>
+        <ItemTechSkills>InDesign</ItemTechSkills>
+        <ItemTechSkills>Cinema4D</ItemTechSkills>
+        <ItemTechSkills>Figma</ItemTechSkills>
       </WrapTechSkills>
     </Wrap>
   );

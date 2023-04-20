@@ -23,6 +23,7 @@ const ButtonLang = styled.button`
 
   :hover {
     background-color: #ffffff28;
+    border-radius: 5px;
   }
   @media (min-width: 1100px) {
     padding: 10px 5px;
@@ -56,7 +57,7 @@ export default function LangBtn() {
     }
   };
 
-  console.log(i18n.language);
+  // console.log(i18n.language);
   return (
     <WrapLang>
       <ButtonLang
