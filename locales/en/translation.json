@@ -14,7 +14,7 @@
     "title": "TechSkills"
   },
   "About": {
-    "about_myself": "I am a Junior Front-End developer looking for a remote job in a company, where I can apply my experience. I focus on HTML, CSS, JavaScript, and React. I have hands-on experience in teamwork. I am motivated to work and to learn and open to new opportunities.",
+    "about_myself": "I am a graphic designer and my goal is to make the world a better place through art and design. I specialize in branding, print design, web design, and illustrations. I create custom designs that help my clients grab the attention of their audience and scale their business.",
     "title_experience": "WORK EXPERIENCE",
     "work_experience": [
       {
@@ -33,9 +33,9 @@
     "title_education": "EDUCATION",
     "education": [
       {
-        "title": "Full stack developer",
-        "timePeriod": "02.2022 - till now",
-        "text": "IT School GoIT"
+        "title": "Web design",
+        "timePeriod": "10.2016 - 12.2016",
+        "text": "Projector"
       },
       {
         "title": "Ceramic artist",
