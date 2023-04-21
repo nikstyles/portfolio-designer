@@ -5,8 +5,9 @@ import styled from 'styled-components';
 import { useState } from 'react';
 import { GlobalStyles } from 'utilities/styles/global.styles';
 import Loading from './Loading/Loading';
-// import DniproM from './DniproM/DniproM';
-import ProjectDetails from './ProjectDetails/ProjectDetails';
+import DniproM from './DniproM/DniproM';
+import Foresta from './Foresta/Foresta';
+// import ProjectDetails from './ProjectDetails/ProjectDetails';
 
 const WrapApp = styled.div`
   background-color: ${props => props.theme.colors.background};
@@ -31,7 +32,8 @@ export const App = () => {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/projects/:id/" element={<ProjectDetails />} />
+          <Route path="/projects/dnipro-m/" element={<DniproM />} />
+          <Route path="/projects/foresta/" element={<Foresta />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="*" element={<Homepage />} />
         </Routes>

@@ -57,7 +57,8 @@ const CoverProject = styled.img`
   border: solid 1px ${props => props.theme.colors.primary};
 
   width: 100%;
-  /* object-fit: cover; */
+  /* height: 276px;
+  object-fit: cover; */
 
   @media (min-width: 768px) {
   }
@@ -77,20 +78,22 @@ const WrapInfo = styled.div`
 
 export default function Projects() {
   // const { t } = useTranslation();
-  const elements = items.map(({ id, toSite, toGithub, tech, text, image }) => (
-    <ItemProjects key={id}>
-      <WrapCoverProject
-        to={`/projects/${id}`}
-        // state={{ from: location }}
-        className="image_cover"
-      >
-        <CoverProject src={image} />
-      </WrapCoverProject>
-      <WrapInfo>
-        <TitleName>{text}</TitleName>
-      </WrapInfo>
-    </ItemProjects>
-  ));
+  const elements = items.map(
+    ({ id, route, toSite, toGithub, tech, text, image }) => (
+      <ItemProjects key={id}>
+        <WrapCoverProject
+          to={`/projects/${route}`}
+          // state={{ from: location }}
+          className="image_cover"
+        >
+          <CoverProject src={image} />
+        </WrapCoverProject>
+        <WrapInfo>
+          <TitleName>{text}</TitleName>
+        </WrapInfo>
+      </ItemProjects>
+    )
+  );
 
   return (
     <Container>

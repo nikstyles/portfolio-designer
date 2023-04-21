@@ -8,11 +8,13 @@ const items = [
     id: nanoid(),
     text: 'Dnipro-M',
     image: dnipro,
+    route: 'dnipro-m',
   },
   {
     id: nanoid(),
     text: 'Foresta',
     image: foresta,
+    route: 'foresta',
   },
   {
     id: nanoid(),
