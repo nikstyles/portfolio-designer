@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import Container from '../../components/Container/Container';
 // import About from '../../components/About/About';
+import { useState, useEffect } from 'react';
+
 import { IoMdArrowRoundBack } from 'react-icons/io';
 import styled from 'styled-components';
 import img1 from '../../images/dniprom/dniprom_1.jpg';
@@ -12,8 +14,9 @@ import img6 from '../../images/dniprom/dniprom_6.jpg';
 import img7 from '../../images/dniprom/dniprom_7.jpg';
 import img8 from '../../images/dniprom/dniprom_8.jpg';
 import img9 from '../../images/dniprom/dniprom_9.jpg';
-import img10 from '../../images/dniprom/dniprom_10.jpg';
-import img11 from '../../images/dniprom/dniprom_11.jpg';
+// import img10 from '../../images/dniprom/dniprom_10.jpg';
+// import img11 from '../../images/dniprom/dniprom_11.jpg';
+// import img12 from '../../images/dniprom/dniprom_12.jpg';
 
 const BackLink = styled(Link)`
   color: rgb(255, 255, 255);
@@ -38,27 +41,50 @@ const Block = styled.div`
 `;
 const WrapProject2colum = styled.div`
   display: flex;
-  gap: 30px;
+  gap: 15px;
+  flex-direction: column;
+  @media (min-width: 768px) {
+    gap: 30px;
+    flex-direction: row;
+  }
 `;
 
 const WrapProject5colum = styled.div`
   display: flex;
-  gap: 30px;
+  gap: 15px;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    gap: 30px;
+    flex-direction: row;
+  }
 `;
 
 const Img = styled.img`
+  margin: 0;
+
   border-radius: 10px;
   width: 100%;
   object-fit: cover;
 `;
 
 const WrapOilImg = styled.div`
-  max-width: 210px;
+  width: 440px;
+  /* width: 100%; */
+  display: flex;
+
+  @media (min-width: 768px) {
+    width: 100%;
+  }
 `;
 const ImgOil = styled.img`
+  margin: 0;
   border-radius: 10px;
-  max-width: 100%;
+  width: 100%;
   object-fit: cover;
+  @media (min-width: 768px) {
+    width: 100%;
+  }
 `;
 
 const Title = styled.h2`
@@ -70,15 +96,32 @@ const Title = styled.h2`
 
 const Block1 = styled.div`
   display: flex;
-  gap: 30px;
+  flex-wrap: wrap;
+  gap: 15px;
+  @media (min-width: 768px) {
+    flex-wrap: nowrap;
+
+    gap: 30px;
+  }
 `;
 const Block2 = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 15px;
+  @media (min-width: 768px) {
+    gap: 30px;
+  }
 `;
 
 export default function DniproM() {
+  const [matches, setMatches] = useState(
+    window.matchMedia('(min-width: 768px)').matches
+  );
+  useEffect(() => {
+    window
+      .matchMedia('(min-width: 768px)')
+      .addEventListener('change', e => setMatches(e.matches));
+  }, []);
   return (
     <Container>
       <BackLink to={'/projects/'}>
@@ -122,12 +165,6 @@ export default function DniproM() {
             </WrapOilImg>
             <WrapOilImg>
               <ImgOil alt="" src={img9} />
-            </WrapOilImg>
-            <WrapOilImg>
-              <ImgOil alt="" src={img10} />
-            </WrapOilImg>
-            <WrapOilImg>
-              <ImgOil alt="" src={img11} />
             </WrapOilImg>
           </Block1>
         </WrapProject5colum>
