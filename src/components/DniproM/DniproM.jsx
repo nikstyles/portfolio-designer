@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Container from '../../components/Container/Container';
 // import About from '../../components/About/About';
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
 
 import { IoMdArrowRoundBack } from 'react-icons/io';
 import styled from 'styled-components';
@@ -114,14 +114,14 @@ const Block2 = styled.div`
 `;
 
 export default function DniproM() {
-  const [matches, setMatches] = useState(
-    window.matchMedia('(min-width: 768px)').matches
-  );
-  useEffect(() => {
-    window
-      .matchMedia('(min-width: 768px)')
-      .addEventListener('change', e => setMatches(e.matches));
-  }, []);
+  // const [matches, setMatches] = useState(
+  //   window.matchMedia('(min-width: 768px)').matches
+  // );
+  // useEffect(() => {
+  //   window
+  //     .matchMedia('(min-width: 768px)')
+  //     .addEventListener('change', e => setMatches(e.matches));
+  // }, []);
   return (
     <Container>
       <BackLink to={'/projects/'}>
