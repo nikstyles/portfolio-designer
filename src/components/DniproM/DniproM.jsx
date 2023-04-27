@@ -14,9 +14,17 @@ import img6 from '../../images/dniprom/dniprom_6.jpg';
 import img7 from '../../images/dniprom/dniprom_7.jpg';
 import img8 from '../../images/dniprom/dniprom_8.jpg';
 import img9 from '../../images/dniprom/dniprom_9.jpg';
-// import img10 from '../../images/dniprom/dniprom_10.jpg';
-// import img11 from '../../images/dniprom/dniprom_11.jpg';
-// import img12 from '../../images/dniprom/dniprom_12.jpg';
+import img10 from '../../images/dniprom/dniprom_10.jpg';
+import img11 from '../../images/dniprom/dniprom_11.jpg';
+import img12 from '../../images/dniprom/dniprom_12.jpg';
+import img13 from '../../images/dniprom/dniprom_13.jpg';
+import img14 from '../../images/dniprom/dniprom_14.jpg';
+import img15 from '../../images/dniprom/dniprom_15.jpg';
+import img16 from '../../images/dniprom/dniprom_16.jpg';
+import img17 from '../../images/dniprom/dniprom_17.jpg';
+import img18 from '../../images/dniprom/dniprom_18.jpg';
+import img19 from '../../images/dniprom/dniprom_19.jpg';
+import img20 from '../../images/dniprom/dniprom_20.jpg';
 
 const BackLink = styled(Link)`
   color: rgb(255, 255, 255);
@@ -168,6 +176,65 @@ export default function DniproM() {
             </WrapOilImg>
           </Block1>
         </WrapProject5colum>
+      </Block>
+
+      <Block>
+        <Title>Розробка брендових скріпок</Title>
+        <WrapProject5colum>
+          <Block1>
+            <WrapOilImg>
+              <ImgOil alt="" src={img10} />
+            </WrapOilImg>
+            <WrapOilImg>
+              <ImgOil alt="" src={img11} />
+            </WrapOilImg>
+            <WrapOilImg>
+              <ImgOil alt="" src={img12} />
+            </WrapOilImg>
+          </Block1>
+        </WrapProject5colum>
+      </Block>
+
+      <Block>
+        <Title>Концепція рекламної стійки</Title>
+        <WrapProject5colum>
+          <Block1>
+            <WrapOilImg>
+              <ImgOil alt="" src={img13} />
+            </WrapOilImg>
+            <WrapOilImg>
+              <ImgOil alt="" src={img14} />
+            </WrapOilImg>
+            <WrapOilImg>
+              <ImgOil alt="" src={img15} />
+            </WrapOilImg>
+          </Block1>
+        </WrapProject5colum>
+      </Block>
+
+      <Block>
+        <Title>3D ілюстрації до буклету нових колег</Title>
+        <WrapProject2colum>
+          <Block2>
+            <Img alt="" src={img17} />
+            <Img alt="" src={img18} />
+          </Block2>
+          <Block1>
+            <Img alt="" src={img16} />
+          </Block1>
+        </WrapProject2colum>
+      </Block>
+
+      <Block>
+        <Title>Баннер на сайт партнерів</Title>
+        <WrapProject2colum>
+          <Block2>
+            <Img alt="" src={img19} />
+          </Block2>
+          <Block1>
+            <Img alt="" src={img20} />
+          </Block1>
+        </WrapProject2colum>
       </Block>
     </Container>
   );
