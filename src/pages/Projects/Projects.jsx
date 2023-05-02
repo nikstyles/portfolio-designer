@@ -78,22 +78,20 @@ const WrapInfo = styled.div`
 
 export default function Projects() {
   // const { t } = useTranslation();
-  const elements = items.map(
-    ({ id, route, toSite, toGithub, tech, text, image }) => (
-      <ItemProjects key={id}>
-        <WrapCoverProject
-          to={`/projects/${route}`}
-          // state={{ from: location }}
-          className="image_cover"
-        >
-          <CoverProject src={image} />
-        </WrapCoverProject>
-        <WrapInfo>
-          <TitleName>{text}</TitleName>
-        </WrapInfo>
-      </ItemProjects>
-    )
-  );
+  const elements = items.map(({ id, route, text, image }) => (
+    <ItemProjects key={id}>
+      <WrapCoverProject
+        to={`/projects/${route}`}
+        // state={{ from: location }}
+        className="image_cover"
+      >
+        <CoverProject src={image} />
+      </WrapCoverProject>
+      <WrapInfo>
+        <TitleName>{text}</TitleName>
+      </WrapInfo>
+    </ItemProjects>
+  ));
 
   return (
     <Container>

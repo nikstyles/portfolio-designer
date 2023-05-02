@@ -25,6 +25,18 @@ import img17 from '../../images/dniprom/dniprom_17.jpg';
 import img18 from '../../images/dniprom/dniprom_18.jpg';
 import img19 from '../../images/dniprom/dniprom_19.jpg';
 import img20 from '../../images/dniprom/dniprom_20.jpg';
+import img21 from '../../images/dniprom/dniprom_21.jpg';
+import img22 from '../../images/dniprom/dniprom_22.jpg';
+import img23 from '../../images/dniprom/dniprom_23.jpg';
+import img24 from '../../images/dniprom/dniprom_24.jpg';
+import img25 from '../../images/dniprom/dniprom_25.jpg';
+import img26 from '../../images/dniprom/dniprom_26.jpg';
+import img27 from '../../images/dniprom/dniprom_27.jpg';
+import img28 from '../../images/dniprom/dniprom_28.jpg';
+import img29 from '../../images/dniprom/dniprom_29.jpg';
+import img30 from '../../images/dniprom/dniprom_30.jpg';
+import img31 from '../../images/dniprom/dniprom_31.jpg';
+import img32 from '../../images/dniprom/dniprom_32.jpg';
 
 const BackLink = styled(Link)`
   color: rgb(255, 255, 255);
@@ -54,6 +66,17 @@ const WrapProject2colum = styled.div`
   @media (min-width: 768px) {
     gap: 30px;
     flex-direction: row;
+  }
+`;
+
+const WrapProject3colum = styled.div`
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  @media (min-width: 768px) {
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 `;
 
@@ -230,11 +253,65 @@ export default function DniproM() {
         <WrapProject2colum>
           <Block2>
             <Img alt="" src={img19} />
-          </Block2>
-          <Block1>
             <Img alt="" src={img20} />
-          </Block1>
+          </Block2>
         </WrapProject2colum>
+      </Block>
+
+      <Block>
+        <Title>Ілюстрації для пакування</Title>
+        <WrapProject3colum>
+          <Block1>
+            <WrapOilImg>
+              <ImgOil alt="" src={img21} />
+            </WrapOilImg>
+            <WrapOilImg>
+              <ImgOil alt="" src={img22} />
+            </WrapOilImg>
+            <WrapOilImg>
+              <ImgOil alt="" src={img23} />
+            </WrapOilImg>
+          </Block1>
+          <Block1>
+            <WrapOilImg>
+              <ImgOil alt="" src={img24} />
+            </WrapOilImg>
+            <WrapOilImg>
+              <ImgOil alt="" src={img25} />
+            </WrapOilImg>
+            <WrapOilImg>
+              <ImgOil alt="" src={img26} />
+            </WrapOilImg>
+          </Block1>
+        </WrapProject3colum>
+      </Block>
+
+      <Block>
+        <Title>Ілюстрації для інструкції</Title>
+        <WrapProject3colum>
+          <Block1>
+            <WrapOilImg>
+              <ImgOil alt="" src={img27} />
+            </WrapOilImg>
+            <WrapOilImg>
+              <ImgOil alt="" src={img28} />
+            </WrapOilImg>
+            <WrapOilImg>
+              <ImgOil alt="" src={img29} />
+            </WrapOilImg>
+          </Block1>
+          <Block1>
+            <WrapOilImg>
+              <ImgOil alt="" src={img30} />
+            </WrapOilImg>
+            <WrapOilImg>
+              <ImgOil alt="" src={img31} />
+            </WrapOilImg>
+            <WrapOilImg>
+              <ImgOil alt="" src={img32} />
+            </WrapOilImg>
+          </Block1>
+        </WrapProject3colum>
       </Block>
     </Container>
   );
