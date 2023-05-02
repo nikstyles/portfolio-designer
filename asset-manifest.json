@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-designer/static/css/main.b6905a13.css",
-    "main.js": "/portfolio-designer/static/js/main.5e12b01c.js",
+    "main.js": "/portfolio-designer/static/js/main.73f32c0c.js",
     "static/css/763.cda94716.chunk.css": "/portfolio-designer/static/css/763.cda94716.chunk.css",
     "static/js/763.de8e5f79.chunk.js": "/portfolio-designer/static/js/763.de8e5f79.chunk.js",
     "static/js/344.a3e4a219.chunk.js": "/portfolio-designer/static/js/344.a3e4a219.chunk.js",
@@ -17,14 +17,17 @@
     "static/media/dniprom_14.jpg": "/portfolio-designer/static/media/dniprom_14.dc4f97fff8178d981dff.jpg",
     "static/media/dniprom_6.jpg": "/portfolio-designer/static/media/dniprom_6.f27c4639cee9f9f329dc.jpg",
     "static/media/dniprom_13.jpg": "/portfolio-designer/static/media/dniprom_13.478907b8839d3c216cac.jpg",
+    "static/media/dniprom_38.jpg": "/portfolio-designer/static/media/dniprom_38.f7e6276a521a7922ccf1.jpg",
     "static/media/dniprom_11.jpg": "/portfolio-designer/static/media/dniprom_11.4b15e961e383b2d76206.jpg",
     "static/media/dnipro_m.jpg": "/portfolio-designer/static/media/dnipro_m.36eec2d235053a4c2f10.jpg",
     "static/media/dniprom_3.jpg": "/portfolio-designer/static/media/dniprom_3.146fb7cc0cddd35c55dc.jpg",
     "static/media/dniprom_12.jpg": "/portfolio-designer/static/media/dniprom_12.ef5ff397bd6dac58455b.jpg",
     "static/media/dniprom_10.jpg": "/portfolio-designer/static/media/dniprom_10.7b01f9db5676bcad65e1.jpg",
+    "static/media/dniprom_33.jpg": "/portfolio-designer/static/media/dniprom_33.88707f7085e86c7c4c9d.jpg",
     "static/media/apro.jpg": "/portfolio-designer/static/media/apro.fffc3d937d6bf61b3023.jpg",
     "static/media/dniprom_18.jpg": "/portfolio-designer/static/media/dniprom_18.dfeab6a3fcce2bf3ee87.jpg",
     "static/media/dniprom_5.jpg": "/portfolio-designer/static/media/dniprom_5.2d2d37da4424323351be.jpg",
+    "static/media/dniprom_37.jpg": "/portfolio-designer/static/media/dniprom_37.5ee89462291ccfbb67c6.jpg",
     "static/media/dniprom_17.jpg": "/portfolio-designer/static/media/dniprom_17.ce941154dffc50f9683c.jpg",
     "static/media/dniprom_4.jpg": "/portfolio-designer/static/media/dniprom_4.f2a4ac6ecc30d18e5b4e.jpg",
     "static/media/dniprom_2.jpg": "/portfolio-designer/static/media/dniprom_2.d049d1b677f1fc6411d7.jpg",
@@ -32,14 +35,19 @@
     "static/media/dniprom_8.jpg": "/portfolio-designer/static/media/dniprom_8.617234dbd6518a3b0155.jpg",
     "static/media/dniprom_28.jpg": "/portfolio-designer/static/media/dniprom_28.646806088f4c22ea1ed9.jpg",
     "static/media/dniprom_25.jpg": "/portfolio-designer/static/media/dniprom_25.2b12546785e2755e232a.jpg",
+    "static/media/dniprom_34.jpg": "/portfolio-designer/static/media/dniprom_34.81871bdad38c2004bbfd.jpg",
     "static/media/dniprom_24.jpg": "/portfolio-designer/static/media/dniprom_24.dfa1576f80a8f93786d2.jpg",
+    "static/media/dniprom_35.jpg": "/portfolio-designer/static/media/dniprom_35.a2e20491201fe3fff4b0.jpg",
     "static/media/dniprom_30.jpg": "/portfolio-designer/static/media/dniprom_30.2ff473455529a8edde89.jpg",
     "static/media/dniprom_9.jpg": "/portfolio-designer/static/media/dniprom_9.72b28eaae7b54bc35db8.jpg",
     "static/media/dniprom_7.jpg": "/portfolio-designer/static/media/dniprom_7.18a36050cd8f41c0c42b.jpg",
+    "static/media/dniprom_39.jpg": "/portfolio-designer/static/media/dniprom_39.c95638597436e7af8099.jpg",
     "static/media/dniprom_26.jpg": "/portfolio-designer/static/media/dniprom_26.7206b5e55435fe58cc6b.jpg",
     "static/media/dniprom_27.jpg": "/portfolio-designer/static/media/dniprom_27.1410290e99d1f198eef7.jpg",
     "static/media/dniprom_31.jpg": "/portfolio-designer/static/media/dniprom_31.082ea9d819c298912f54.jpg",
+    "static/media/dniprom_40.jpg": "/portfolio-designer/static/media/dniprom_40.0dc415fc185406871ec5.jpg",
     "static/media/dniprom_29.jpg": "/portfolio-designer/static/media/dniprom_29.e300ec95f6917c1a7951.jpg",
+    "static/media/dniprom_36.jpg": "/portfolio-designer/static/media/dniprom_36.17232b9821424b4f835e.jpg",
     "static/media/dniprom_23.jpg": "/portfolio-designer/static/media/dniprom_23.118785a40a18827b2fe3.jpg",
     "static/media/dniprom_21.jpg": "/portfolio-designer/static/media/dniprom_21.6019e99d4bcb9ea0c2ec.jpg",
     "static/media/mykyta_2.jpg": "/portfolio-designer/static/media/mykyta_2.6545c9d44567bf0d7cfe.jpg",
@@ -51,7 +59,7 @@
     "static/media/line_big.svg": "/portfolio-designer/static/media/line_big.e816d7c64e1b17abd8d57dd905bd5e1a.svg",
     "static/media/line_small.svg": "/portfolio-designer/static/media/line_small.01b1f719474fa6b73183c06e9a74a3ed.svg",
     "main.b6905a13.css.map": "/portfolio-designer/static/css/main.b6905a13.css.map",
-    "main.5e12b01c.js.map": "/portfolio-designer/static/js/main.5e12b01c.js.map",
+    "main.73f32c0c.js.map": "/portfolio-designer/static/js/main.73f32c0c.js.map",
     "763.cda94716.chunk.css.map": "/portfolio-designer/static/css/763.cda94716.chunk.css.map",
     "763.de8e5f79.chunk.js.map": "/portfolio-designer/static/js/763.de8e5f79.chunk.js.map",
     "344.a3e4a219.chunk.js.map": "/portfolio-designer/static/js/344.a3e4a219.chunk.js.map",
@@ -60,6 +68,6 @@
   },
   "entrypoints": [
     "static/css/main.b6905a13.css",
-    "static/js/main.5e12b01c.js"
+    "static/js/main.73f32c0c.js"
   ]
 }
