@@ -37,6 +37,14 @@ import img29 from '../../images/dniprom/dniprom_29.jpg';
 import img30 from '../../images/dniprom/dniprom_30.jpg';
 import img31 from '../../images/dniprom/dniprom_31.jpg';
 import img32 from '../../images/dniprom/dniprom_32.jpg';
+import img33 from '../../images/dniprom/dniprom_33.jpg';
+import img34 from '../../images/dniprom/dniprom_34.jpg';
+import img35 from '../../images/dniprom/dniprom_35.jpg';
+import img36 from '../../images/dniprom/dniprom_36.jpg';
+import img37 from '../../images/dniprom/dniprom_37.jpg';
+import img38 from '../../images/dniprom/dniprom_38.jpg';
+import img39 from '../../images/dniprom/dniprom_39.jpg';
+import img40 from '../../images/dniprom/dniprom_40.jpg';
 
 const BackLink = styled(Link)`
   color: rgb(255, 255, 255);
@@ -54,6 +62,10 @@ const BackLink = styled(Link)`
     svg {
       text-shadow: 0 0 15px #ffffff;
     }
+  }
+
+  &.back_link {
+    padding-bottom: 100px;
   }
 `;
 const Block = styled.div`
@@ -171,6 +183,26 @@ export default function DniproM() {
           </Block2>
         </WrapProject2colum>
       </Block>
+
+      <Block>
+        <Title>Розробка обкладинки до каталогу</Title>
+        <WrapProject3colum>
+          <Block1>
+            <WrapOilImg>
+              <ImgOil alt="" src={img38} />
+            </WrapOilImg>
+          </Block1>
+          <Block2>
+            <WrapOilImg>
+              <ImgOil alt="" src={img39} />
+            </WrapOilImg>
+            <WrapOilImg>
+              <ImgOil alt="" src={img40} />
+            </WrapOilImg>
+          </Block2>
+        </WrapProject3colum>
+      </Block>
+
       <Block>
         <Title>Брендування та кольорове рішення</Title>
         <WrapProject2colum>
@@ -313,6 +345,35 @@ export default function DniproM() {
           </Block1>
         </WrapProject3colum>
       </Block>
+
+      <Block>
+        <Title>3D моделювання</Title>
+        <WrapProject3colum>
+          <Block1>
+            <WrapOilImg>
+              <ImgOil alt="" src={img33} />
+            </WrapOilImg>
+            <WrapOilImg>
+              <ImgOil alt="" src={img34} />
+            </WrapOilImg>
+          </Block1>
+          <Block1>
+            <WrapOilImg>
+              <ImgOil alt="" src={img35} />
+            </WrapOilImg>
+            <WrapOilImg>
+              <ImgOil alt="" src={img36} />
+            </WrapOilImg>
+            <WrapOilImg>
+              <ImgOil alt="" src={img37} />
+            </WrapOilImg>
+          </Block1>
+        </WrapProject3colum>
+      </Block>
+
+      <BackLink to={'/projects/'} className="back_link">
+        <IoMdArrowRoundBack className="arrow" size={'18px'} /> Go Back
+      </BackLink>
     </Container>
   );
 }
