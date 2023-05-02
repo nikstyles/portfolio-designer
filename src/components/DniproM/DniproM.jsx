@@ -186,21 +186,15 @@ export default function DniproM() {
 
       <Block>
         <Title>Розробка обкладинки до каталогу</Title>
-        <WrapProject3colum>
+        <WrapProject2colum>
           <Block1>
-            <WrapOilImg>
-              <ImgOil alt="" src={img38} />
-            </WrapOilImg>
+            <Img alt="" src={img38} />
           </Block1>
           <Block2>
-            <WrapOilImg>
-              <ImgOil alt="" src={img39} />
-            </WrapOilImg>
-            <WrapOilImg>
-              <ImgOil alt="" src={img40} />
-            </WrapOilImg>
+            <Img alt="" src={img39} />
+            <Img alt="" src={img40} />
           </Block2>
-        </WrapProject3colum>
+        </WrapProject2colum>
       </Block>
 
       <Block>
