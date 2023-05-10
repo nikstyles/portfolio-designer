@@ -11,9 +11,9 @@ const UpBtn = styled.button`
   height: 50px;
   width: 50px;
 
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 
   background-color: #fff;
   border: none;
@@ -37,13 +37,16 @@ const ScrollToTop = () => {
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      if (window.pageYOffset > 500) {
+      if (window.scrollY > 500) {
         setShowButton(true);
       } else {
         setShowButton(false);
       }
     });
   }, []);
+
+  const scrollHeight = window.scrollY;
+  console.log(scrollHeight);
 
   const scrollUp = () => {
     window.scrollTo({
