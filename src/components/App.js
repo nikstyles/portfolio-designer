@@ -8,6 +8,7 @@ import Loading from './Loading/Loading';
 import DniproM from './DniproM/DniproM';
 import Foresta from './Foresta/Foresta';
 // import ProjectDetails from './ProjectDetails/ProjectDetails';
+import ScrollToTop from './UtilsFolder/ScrollToTop/ScrollToTop';
 
 const WrapApp = styled.div`
   background-color: ${props => props.theme.colors.background};
@@ -38,6 +39,7 @@ export const App = () => {
           <Route path="*" element={<Homepage />} />
         </Routes>
       </Suspense>
+      <ScrollToTop />
     </WrapApp>
   );
 };

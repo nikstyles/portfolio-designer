@@ -2,9 +2,11 @@ import { Link } from 'react-router-dom';
 import Container from '../../components/Container/Container';
 // import About from '../../components/About/About';
 // import { useState, useEffect } from 'react';
+// import ScrollToTop from 'components/UtilsFolder/ScrollToTop/ScrollToTop';
 
 import { IoMdArrowRoundBack } from 'react-icons/io';
 import styled from 'styled-components';
+
 import img1 from '../../images/dniprom/dniprom_1.jpg';
 import img2 from '../../images/dniprom/dniprom_2.jpg';
 import img3 from '../../images/dniprom/dniprom_3.jpg';
@@ -50,7 +52,7 @@ const BackLink = styled(Link)`
   color: rgb(255, 255, 255);
   margin-top: 50px;
   text-decoration: underline;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   font-weight: 700;
 
@@ -368,6 +370,7 @@ export default function DniproM() {
       <BackLink to={'/projects/'} className="back_link">
         <IoMdArrowRoundBack className="arrow" size={'18px'} /> Go Back
       </BackLink>
+      {/* <ScrollToTop /> */}
     </Container>
   );
 }
