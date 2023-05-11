@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import Container from '../../components/Container/Container';
 // import About from '../../components/About/About';
 // import { useState, useEffect } from 'react';
-// import ScrollToTop from 'components/UtilsFolder/ScrollToTop/ScrollToTop';
+import ScrollToTop from 'components/UtilsFolder/ScrollToTop/ScrollToTop';
 
 import { IoMdArrowRoundBack } from 'react-icons/io';
 import styled from 'styled-components';
@@ -370,7 +370,7 @@ export default function DniproM() {
       <BackLink to={'/projects/'} className="back_link">
         <IoMdArrowRoundBack className="arrow" size={'18px'} /> Go Back
       </BackLink>
-      {/* <ScrollToTop /> */}
+      <ScrollToTop />
     </Container>
   );
 }

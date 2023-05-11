@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import scss from './ScrollToTop.module.scss';
 
 const UpBtn = styled.button`
   position: fixed;
@@ -11,9 +10,9 @@ const UpBtn = styled.button`
   height: 50px;
   width: 50px;
 
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
 
   background-color: #fff;
   border: none;
@@ -26,10 +25,12 @@ const UpBtn = styled.button`
   &:hover {
     opacity: 1;
   }
+`;
 
-  &.hidden {
-    display: none;
-  }
+const IconArrowUp = styled.svg`
+  fill: #000000;
+  width: 50px;
+  height: 50px;
 `;
 
 const ScrollToTop = () => {
@@ -45,9 +46,6 @@ const ScrollToTop = () => {
     });
   }, []);
 
-  const scrollHeight = window.scrollY;
-  console.log(scrollHeight);
-
   const scrollUp = () => {
     window.scrollTo({
       top: 0,
@@ -60,9 +58,9 @@ const ScrollToTop = () => {
     <>
       {showButton && (
         <UpBtn type="button" onClick={scrollUp}>
-          <svg viewBox="0 0 24 28" className={scss.iconArrowUp}>
+          <IconArrowUp viewBox="0 0 24 28">
             <path d="M18.203 17.797l1.594-1.594c0.391-0.391 0.391-1.016 0-1.406l-7.094-7.094c-0.391-0.391-1.016-0.391-1.406 0l-7.094 7.094c-0.391 0.391-0.391 1.016 0 1.406l1.594 1.594c0.391 0.391 1.016 0.391 1.406 0l4.797-4.797 4.797 4.797c0.391 0.391 1.016 0.391 1.406 0zM24 14c0 6.625-5.375 12-12 12s-12-5.375-12-12 5.375-12 12-12 12 5.375 12 12z"></path>
-          </svg>
+          </IconArrowUp>
         </UpBtn>
       )}
     </>

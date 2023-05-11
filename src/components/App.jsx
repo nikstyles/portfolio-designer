@@ -8,12 +8,13 @@ import Loading from './Loading/Loading';
 import DniproM from './DniproM/DniproM';
 import Foresta from './Foresta/Foresta';
 // import ProjectDetails from './ProjectDetails/ProjectDetails';
-import ScrollToTop from './UtilsFolder/ScrollToTop/ScrollToTop';
+// import ScrollToTop from './UtilsFolder/ScrollToTop/ScrollToTop';
 
 const WrapApp = styled.div`
   background-color: ${props => props.theme.colors.background};
   min-height: 100vh;
   background-size: 100%;
+  position: relative;
 
   filter: ${props => (props.blur ? 'blur(10px)' : 'blur(0)')};
 `;
@@ -26,20 +27,22 @@ export const App = () => {
   const [blur, setBlur] = useState(false);
 
   return (
-    <WrapApp blur={blur}>
-      <GlobalStyles />
-      <Navigation setBlur={setBlur} />
-      <Suspense fallback={<Loading />}>
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/projects/dnipro-m/" element={<DniproM />} />
-          <Route path="/projects/foresta/" element={<Foresta />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="*" element={<Homepage />} />
-        </Routes>
-      </Suspense>
-      <ScrollToTop />
-    </WrapApp>
+    <>
+      <WrapApp blur={blur}>
+        <GlobalStyles />
+        <Navigation setBlur={setBlur} />
+        <Suspense fallback={<Loading />}>
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/dnipro-m/" element={<DniproM />} />
+            <Route path="/projects/foresta/" element={<Foresta />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="*" element={<Homepage />} />
+          </Routes>
+        </Suspense>
+        {/* <ScrollToTop /> */}
+      </WrapApp>
+    </>
   );
 };
